@@ -10,12 +10,19 @@ Important: There is no need to map any port inside Nexus compose .
 
 ## Change Docker Config File:
 
+in /etc/docker/daemon.json :
+
 ```bash
 {
   "insecure-registries": ["https://docker.rahbia.iamsre.ir"]
 }
 ```
 
+after this change, restart docker:
+
+```bash
+systemctl restart docker.service
+```
 
 ## Change Labels for traefik in nexus compose: 
 
