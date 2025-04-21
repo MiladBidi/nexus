@@ -48,6 +48,12 @@ labels:
 
 ```
 
+- A domain must be considered for the registry related to images.
+- Separate routers must be created for both http and https traffic
+- SSL/TLS settings must be configured for the https router
+- A "service" must also be created for the HTTPS router that points to port 5000 of the Nexus container
+- This service must be connected to the https router
+
 ## Test Login
 ```bash
 docker login docker.rahbia.iamsre.ir
