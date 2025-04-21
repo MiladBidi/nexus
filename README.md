@@ -1,7 +1,7 @@
 # Nexus
 This is a practical guide to configuring Nexus behind a reverse proxy. Here our reverse proxy is Traefik.
 
-Important: There is no need to map the port inside Docker Compose Nexus.
+Important: There is no need to map any port inside Nexus compose .
 
 Setup Docker Hosted Repo:
 1. Create repository
