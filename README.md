@@ -3,13 +3,13 @@ This is a practical guide to configuring Nexus behind a reverse proxy. Here our 
 
 Important: There is no need to map any port inside Nexus compose .
 
-Setup Docker Hosted Repo:
+## Setup Docker Hosted Repo:
 1. Create repository
 2. HTTP Port 5000
 
 ---
 
-Change Docker Config File:
+## Change Docker Config File:
 
 ```bash
 {
@@ -19,7 +19,7 @@ Change Docker Config File:
 
 ------
 
-Change Labels for traefik in nexus compose: 
+## Change Labels for traefik in nexus compose: 
 
 ```bash
 labels:
