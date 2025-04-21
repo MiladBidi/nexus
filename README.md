@@ -17,6 +17,8 @@ Change Docker Config File:
 }
 ```
 
+------
+
 Change Labels for traefik in nexus compose: 
 
 ```bash
