@@ -7,6 +7,8 @@ Setup Docker Hosted Repo:
 1. Create repository
 2. HTTP Port 5000
 
+|---------|
+
 Change Docker Config File:
 
 ```bash
