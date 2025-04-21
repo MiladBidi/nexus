@@ -7,7 +7,6 @@ Important: There is no need to map any port inside Nexus compose .
 1. Create repository
 2. HTTP Port 5000
 
----
 
 ## Change Docker Config File:
 
@@ -17,7 +16,6 @@ Important: There is no need to map any port inside Nexus compose .
 }
 ```
 
-------
 
 ## Change Labels for traefik in nexus compose: 
 
