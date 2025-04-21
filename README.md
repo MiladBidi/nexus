@@ -40,3 +40,8 @@ labels:
       - "traefik.http.services.docker-srv.loadbalancer.server.port=5000"
 
 ```
+
+## Test Login
+```bash
+docker login docker.rahbia.iamsre.ir
+```
